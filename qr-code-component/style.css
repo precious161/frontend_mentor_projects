@@ -49,6 +49,7 @@ main{
   font-size: 0.875rem;
   text-align: center;
   margin-top: 2rem;
+  padding: 5px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
