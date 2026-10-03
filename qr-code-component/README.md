@@ -10,7 +10,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Live Site](https://frontendmentorprojects-qr-code-component-9hru8jfmc.vercel.app/)
 
 ## My process
