@@ -1,0 +1,8 @@
+.main-box{
+    background-color: hsl(212,45%,89%);
+    margin: 20px;
+}
+.qr{
+    width: 2px;
+    height: 2px;
+}
