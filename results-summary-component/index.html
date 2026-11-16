@@ -1,47 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<bo lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorign>
+  <link rel="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Results Summary</title>
 </head>
-<body>
+  <main>
+    <article class="card">
+      <section class="results" aria-labelledby="results-heading">
+        <h1 id="results-heading" class="results__heading">Your Result</h1>
+        <div class="results__circle">
+          <p class="results__score">
+            <span class="results__score-value">76</span>
+            <span class="results__score-total">of 100</span>
+          </p>
+        </div>
+        <h2 class="results__title">Great</h2>
+        <p class="results__description">You scored higher than 65% of the people who have taken these tests</p>
+      </section>
+      <section class="summary" aria-labelledby="summary-heading">
+        <h2 id="summary-heading" class="summary__heading">Summary</h2>
+        <ul class="summary__lists">
+          <li class="summary__list summary__list--reaction">
+            <img class="list__icon" src="./assets/images/icon-reaction.svg" alt="" aria-hidden="true">
+            <span class="summary__name">Reaction</span>
+            <span class="summary__score"><strong>80</strong> / 100</span>
+          </li>
+          <li class="summary__list summary__list--memory">
+            <img class="list__icon" src="./assets/images/icon-memory.svg" alt="" aria-hidden="true">
+            <span class="summary__name">Memory</span>
+            <span class="summary__score"><strong>92</strong> / 100</span>
+          </li>
+          <li class="summary__list summary__list--verbal">
+            <img class="list__icon" src="./assets/images/icon-verbal.svg" alt="" aria-hidden="true">
+            <span class="summary__name">Verbal</span>
+            <span class="summary__score"><strong>61</strong> / 100</span>
+          </li>
+          <li class="summary__list summary__list--visual">
+            <img class="list__icon" src="./assets/images/icon-visual.svg" alt="" aria-hidden="true">
+            <span class="summary__name">Visual</span>
+            <span class="summary__score"><strong>73</strong> / 100</span>
+          </li>
+        </ul>
+        <button type="button" class="summary__button">Continue</button>
+      </section>
+    </article>
+  </main>
 
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/precious161">Feyruza</a>.
   </footer>
 </body>
 </html>
